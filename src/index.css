@@ -1,0 +1,36 @@
+:root {
+  --gray-color: #5d5d5d;
+  --background-gray-color: #f8f8f8;
+  --red-color: #e81736;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.75%;
+}
+@media(max-width:360px){
+  html {
+    font-size: 50.75%;
+  }
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  color: var(--gray-color);
+}
+
+.centralizer {
+  width: 95%;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--gray-color);
+}
+

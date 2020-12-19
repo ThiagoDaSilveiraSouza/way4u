@@ -1,0 +1,16 @@
+module.exports = {
+  extends: ['plugin:prettier/recommended'],
+  plugins: ['prettier'],
+  rules: {
+    'prettier/prettier': 'error',
+    curly: 2,
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+      modules: true,
+    },
+    ecmaVersion: 7,
+    sourceType: 'module',
+  },
+}

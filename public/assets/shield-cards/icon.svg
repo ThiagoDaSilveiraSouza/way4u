@@ -1,0 +1,29 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.131" height="48" viewBox="0 0 40.131 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #e20e2d;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_289" data-name="Retângulo 289" class="cls-1" width="40.131" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="missao-icon" class="cls-2" transform="translate(0 0)">
+    <path id="Caminho_19" data-name="Caminho 19" class="cls-3" d="M39.28,7.76,20.935.143a1.872,1.872,0,0,0-1.436,0L1.154,7.76A1.872,1.872,0,0,0,0,9.489v9.259A31.349,31.349,0,0,0,19.509,47.783a1.873,1.873,0,0,0,1.415,0,31.349,31.349,0,0,0,19.51-29.035V9.489A1.872,1.872,0,0,0,39.28,7.76" transform="translate(0 -0.136)"/>
+    <path id="Caminho_20" data-name="Caminho 20" class="cls-4" d="M102.911,274.781v5.292a1.763,1.763,0,0,0,1.764,1.764h17.641a1.763,1.763,0,0,0,1.764-1.764v-5.292a5.29,5.29,0,0,0-5.292-5.292h-.452a.464.464,0,0,0-.45.429,4.411,4.411,0,0,1-8.78,0,.464.464,0,0,0-.45-.429H108.2a5.293,5.293,0,0,0-5.292,5.292" transform="translate(-93.279 -244.401)"/>
+    <path id="Caminho_21" data-name="Caminho 21" class="cls-4" d="M154.546,126.082c3.5,0,6.346-3.247,6.346-7.252s-2.842-7.252-6.346-7.252-6.346,3.247-6.346,7.252,2.842,7.252,6.346,7.252m0-7.252a3.614,3.614,0,0,0,3.472-1.976,4.524,4.524,0,1,1-8,2.882c0-1.1,2.877-.907,4.533-.907" transform="translate(-134.329 -101.269)"/>
+  </g>
+</svg>
