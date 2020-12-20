@@ -10,6 +10,7 @@ import { CarouselComponent } from "../../components/carousel-component"
 import { NewsComponent } from "../../components/news-component"
 import { ContatcComponent } from "../../components/contact-component"
 import { WhatsappComponent } from "../../components/whatsapp-component"
+import { Faq } from "./components/faq"
 
 export const Home = () => {
   return (
@@ -23,6 +24,7 @@ export const Home = () => {
       {/* <MainBannerComponent /> */}
       <CarouselComponent />
       {/* <NewsComponent /> */}
+      <Faq />
       <ContatcComponent />
       <WhatsappComponent />
     </main>

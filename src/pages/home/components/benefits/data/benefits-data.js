@@ -92,7 +92,7 @@ export const BenefitsData = [
         title:
           "Perguntas e respostas básicas da cidade, pontos turísticos e Lei de Trânsito",
       },
-      { title: "Recomendaçõe" },
+      { title: "Recomendações" },
     ],
   },
 ]
