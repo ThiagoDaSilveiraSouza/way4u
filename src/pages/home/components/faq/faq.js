@@ -52,7 +52,7 @@ const CardSection = styled.section`
   transition: max-height 0.3s;
   overflow: hidden;
   margin: 20px 0;
-  max-height: ${({ faqIsShow }) => (faqIsShow ? "2500px" : 0)};
+  max-height: ${({ faqIsShow }) => (faqIsShow ? "4000px" : 0)};
 `
 export const Faq = () => {
   const [selectedCard, setSelectedeCard] = useState(null)

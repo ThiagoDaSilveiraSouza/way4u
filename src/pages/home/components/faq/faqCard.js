@@ -1,4 +1,3 @@
-import { useState } from "react"
 import styled from "styled-components"
 
 // components
@@ -67,7 +66,7 @@ export const FaqCard = ({
     <Card key={card.title}>
       <h4 onClick={selecThisCard}>
         <div>
-          <span>{position + 1}. </span>
+          <span>{card.id}. </span>
           {card.title}
         </div>
         <PlusButton isChecked={cardIsChecked} />
@@ -80,13 +79,13 @@ export const FaqCard = ({
               {paragraph.topics &&
                 paragraph.topics.map((topic, position) => {
                   return (
-                    <li key={topic.description}>
+                    <li key={position.toString()}>
                       {topic.description}
                       {topic.subTopics && (
                         <SubTopicList>
                           {topic.subTopics.map((subTopics, position) => {
                             return (
-                              <li key={subTopics.description}>
+                              <li key={position.toString()}>
                                 {subTopics.description}
                               </li>
                             )

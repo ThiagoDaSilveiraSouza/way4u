@@ -15,7 +15,7 @@ export const faqData = [
     paragraphs: [
       {
         text:
-          "Infringir as Leis de Trânsito não é permitido em hipótese alguma. Os motoristas que cometem tal ato ou não conhecem as leis, ou as estão burlando, ou não são habilitados para este tipo de transporte, fazendo com isso o transporte ilegal (pirata) de passageiros, assumindo assim o risco iminente de serem multados ou de provocarem algum acidente de trânsito. ",
+          "Infringir as Leis de Trânsito não é permitido em hipótese alguma. Os motoristas que cometem tal ato ou não conhecem as leis, ou as estão burlando, ou não são habilitados para este tipo de transporte, fazendo com isso o transporte ilegal (pirata) de passageiros, assumindo assim o risco iminente de serem multados ou de provocarem algum acidente de trânsito.",
       },
     ],
   },
@@ -36,24 +36,14 @@ export const faqData = [
     paragraphs: [
       {
         text:
-          "É todo tipo de transporte realizado por um veículo automotivo particular na modalidade passeio, feito por motoristas por fora de aplicativos sem serem motoristas profissionais (não apresentam a permissão para exercer atividade remunerada). Não possuem – MEI com CNPJ bem como não possuem permissão municipal para exercer tal atividade. ",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "O que é transporte ilegal ou pirata?",
-    paragraphs: [
-      {
-        text:
-          "É todo tipo de transporte realizado por um veículo automotivo particular na modalidade passeio, feito por motoristas por fora de aplicativos sem serem motoristas profissionais (não apresentam a permissão para exercer atividade remunerada). Não possuem – MEI com CNPJ bem como não possuem permissão municipal para exercer tal atividade. ",
+          "É todo tipo de transporte realizado por um veículo automotivo particular na modalidade passeio, feito por motoristas por fora de aplicativos sem serem motoristas profissionais (não apresentam a permissão para exercer atividade remunerada). Não possuem – MEI com CNPJ bem como não possuem permissão municipal para exercer tal atividade.",
       },
       {
         text:
           "Motoristas sem esta permissão anterior são multados e os que fazem corridas por fora da plataforma, correm o sério risco de serem expulsos.",
       },
       {
-        text: "Os riscos que o passageiro corre são: ",
+        text: "Os riscos que o passageiro corre são:",
         topics: [
           {
             description:
@@ -83,7 +73,7 @@ export const faqData = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     title:
       "Por que motoristas de app não podem parar em ponto de ônibus e taxi?",
     paragraphs: [
@@ -94,7 +84,7 @@ export const faqData = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     title:
       "Por que os motoristas de app não podem parar sobre Faixa de pedestres, em Fila dupla ou em local com a placa de “proibido parar e estacionar”?",
     paragraphs: [
@@ -105,7 +95,7 @@ export const faqData = [
     ],
   },
   {
-    id: 8,
+    id: 7,
     title: "Por que tem motorista que não para onde eu solicitei o embarque?",
     paragraphs: [
       {
@@ -119,28 +109,26 @@ export const faqData = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     title:
       "Mas eu tenho incapacidade física ou sou do grupo de prioridade (idoso, gravidez, com criança de colo) também não pode parar?",
     paragraphs: [
       {
         text:
-          "Não. É possível que neste local não seja permitida a parada para embarque/desembarque, sendo assim os motoristas irão procurar um local onde seja permitido parar para embarque/desembarque seguro, sem infringir as leis brasileiras e locais. ",
+          "Não. É possível que neste local não seja permitida a parada para embarque/desembarque, sendo assim os motoristas irão procurar um local onde seja permitido parar para embarque/desembarque seguro, sem infringir as leis brasileiras e locais.",
       },
       {
         text:
-          "Neste caso, infelizmente, as legislações locais e municipais não abarcam prioridades, portanto o motorista deverá seguir estritamente os trechos da lei. ",
+          "Neste caso, infelizmente, as legislações locais e municipais não abarcam prioridades, portanto o motorista deverá seguir estritamente os trechos da lei.",
       },
     ],
   },
   {
-    id: 10,
+    id: 9,
     title:
       "Quais são os pontos mais comuns em Teresópolis que os motoristas NÃO podem parar?",
     paragraphs: [
       {
-        text:
-          "Não. É possível que neste local não seja permitida a parada para embarque/desembarque, sendo assim os motoristas irão procurar um local onde seja permitido parar para embarque/desembarque seguro, sem infringir as leis brasileiras e locais. ",
         topics: [
           {
             description:
@@ -176,7 +164,7 @@ export const faqData = [
     ],
   },
   {
-    id: 11,
+    id: 10,
     title:
       "Por que os motoristas de app não podem levar mais de 4 passageiros?",
     paragraphs: [
@@ -187,7 +175,7 @@ export const faqData = [
     ],
   },
   {
-    id: 12,
+    id: 11,
     title: "Por que há motoristas que somente levam 3 passageiros?",
     paragraphs: [
       {
@@ -197,7 +185,7 @@ export const faqData = [
     ],
   },
   {
-    id: 13,
+    id: 12,
     title:
       "Por que há motoristas que não levam 4 passageiros e 1 ou mais crianças de colo?",
     paragraphs: [
@@ -208,7 +196,7 @@ export const faqData = [
     ],
   },
   {
-    id: 14,
+    id: 13,
     title:
       "Tem motoristas que levam 4 passageiros além de 1 ou mais crianças de colo, por que?",
     paragraphs: [
@@ -219,7 +207,7 @@ export const faqData = [
     ],
   },
   {
-    id: 15,
+    id: 14,
     title: "Por que criança de colo somente pode viajar utilizando cadeirinha?",
     paragraphs: [
       {
@@ -229,7 +217,7 @@ export const faqData = [
     ],
   },
   {
-    id: 16,
+    id: 15,
     title:
       "O motorista de aplicativo é obrigado a ter cadeirinha para transporte de crianças?",
     paragraphs: [
@@ -240,7 +228,7 @@ export const faqData = [
     ],
   },
   {
-    id: 17,
+    id: 16,
     title: "Por que os motoristas cancelam a corrida quando estou com compras?",
     paragraphs: [
       {
@@ -258,7 +246,7 @@ export const faqData = [
     ],
   },
   {
-    id: 18,
+    id: 17,
     title:
       "Por que os motoristas não podem realizar corridas particulares ou “Por Fora”?",
     paragraphs: [
@@ -281,7 +269,7 @@ export const faqData = [
     ],
   },
   {
-    id: 19,
+    id: 18,
     title:
       "Chamei por uma corrida e o motorista foi parar em outro local de embarque, por que?",
     paragraphs: [
@@ -296,7 +284,7 @@ export const faqData = [
     ],
   },
   {
-    id: 20,
+    id: 19,
     title: "Em que situação posso cancelar uma corrida?",
     paragraphs: [
       {
@@ -309,12 +297,12 @@ export const faqData = [
       },
       {
         text:
-          "NCabe mencionar que a nossa plataforma de transporte irá analisar cada cancelamento e havendo frequência de cancelamentos ou possíveis suspeitas de fraude, os cadastros dos ofensores poderão ser excluídos da plataforma.",
+          "Cabe mencionar que a nossa plataforma de transporte irá analisar cada cancelamento e havendo frequência de cancelamentos ou possíveis suspeitas de fraude, os cadastros dos ofensores poderão ser excluídos da plataforma.",
       },
     ],
   },
   {
-    id: 21,
+    id: 20,
     title: "Por que é cobrada uma Taxa de Cancelamento?",
     paragraphs: [
       {
@@ -324,7 +312,7 @@ export const faqData = [
     ],
   },
   {
-    id: 22,
+    id: 21,
     title: "Se o motorista cancelar corridas, ele paga Taxa de Cancelamento?",
     paragraphs: [
       {
@@ -334,7 +322,7 @@ export const faqData = [
     ],
   },
   {
-    id: 23,
+    id: 22,
     title: "Posso solicitar corridas apenas para transporte de objetos?",
     paragraphs: [
       {
@@ -348,7 +336,7 @@ export const faqData = [
     ],
   },
   {
-    id: 24,
+    id: 23,
     title: "Por que corridas para transporte de Pets é mais cara?",
     paragraphs: [
       {

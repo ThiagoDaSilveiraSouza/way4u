@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from "react"
+import { useRef } from "react"
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md"
 import AliceCarousel from "react-alice-carousel"
 import "react-alice-carousel/lib/alice-carousel.css"
