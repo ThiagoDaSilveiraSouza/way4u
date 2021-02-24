@@ -4,13 +4,22 @@ export const BenefitsData = [
     title: "Benefícios para motoristas",
     imgPath: "./assets/beneficts/motorista-icon.svg",
     topics: [
-      { title: "Taxa de cancelamento" },
-      { title: "Taxa de deslocamento" },
+      {
+        title: "Taxa de cancelamento*",
+        strong: true,
+      },
+      {
+        title: "Taxa de deslocamento*",
+        strong: true,
+      },
       {
         title:
           "Corridas com valor de dinâmica na proporção dos apps do mercado",
       },
-      { title: "Não haverá cobrança de mensalidade" },
+      {
+        title: "Não haverá cobrança de mensalidade*",
+        strong: true,
+      },
       {
         title:
           "Menor desconto de percentual fixo de valor de corridas do mercado",
@@ -22,6 +31,12 @@ export const BenefitsData = [
       },
       { title: "Monitoramento frequente enquanto app estiver ligado" },
     ],
+    observation: [
+      {
+        title: "*Taxas podem ser alteradas dependendo do plano de cada motorista",
+        strong: true,
+      }
+    ]
   },
   {
     id: 2,

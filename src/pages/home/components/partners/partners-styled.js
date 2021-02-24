@@ -25,6 +25,7 @@ export const PartnersWrapper = styled.div`
   div {
     display: flex;
     justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     :hover {
       img {
@@ -34,6 +35,7 @@ export const PartnersWrapper = styled.div`
     img {
       cursor: pointer;
       width: 13rem;
+      height: inherit;
       transition: transform 0.2s;
     }
   }

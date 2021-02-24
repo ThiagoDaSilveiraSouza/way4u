@@ -36,3 +36,14 @@ export const BenefictsCardsTitle = styled.div`
     justify-self: center;
   }
 `
+
+export const BenefictsTopic = styled.li`
+  font-weight: ${({ strong }) => strong && "bolder"};
+`
+export const BenefitsObservation = styled.ul`
+  padding: 0 !important;
+  margin-top: 40px;
+li {
+    list-style: none;
+  }
+`

@@ -3,6 +3,8 @@ import {
   BenefictsWrapper,
   BenefictsCards,
   BenefictsCardsTitle,
+  BenefictsTopic,
+  BenefitsObservation,
 } from "./benefits-wrapper"
 
 export const Benefits = () => {
@@ -18,7 +20,10 @@ export const Benefits = () => {
               </BenefictsCardsTitle>
               <ul>
                 {benetift.topics.map((topic, position) => (
-                  <li key={"benefit-topic-" + position}>
+                  <BenefictsTopic
+                    key={"benefit-topic-" + position}
+                    strong={topic.strong}
+                  >
                     {topic.title}
                     {topic.subTopics && (
                       <ul>
@@ -31,9 +36,21 @@ export const Benefits = () => {
                         })}
                       </ul>
                     )}
-                  </li>
+                  </BenefictsTopic>
                 ))}
               </ul>
+              {benetift.observation && (
+                <BenefitsObservation>
+                  {benetift.observation.map((currentObservation, position) => (
+                    <BenefictsTopic
+                      key={position}
+                      strong={currentObservation.strong}
+                    >
+                      {currentObservation.title}
+                    </BenefictsTopic>
+                  ))}
+                </BenefitsObservation>
+              )}
             </BenefictsCards>
           )
         })}

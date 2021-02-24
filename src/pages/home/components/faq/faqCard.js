@@ -72,9 +72,9 @@ export const FaqCard = ({
         <PlusButton isChecked={cardIsChecked} />
       </h4>
       <CardContent cardIsChecked={cardIsChecked}>
-        {card.paragraphs.map((paragraph) => {
+        {card.paragraphs.map((paragraph, position) => {
           return (
-            <TopicList>
+            <TopicList key={position.toString()}>
               <p>{paragraph.text}</p>
               {paragraph.topics &&
                 paragraph.topics.map((topic, position) => {
