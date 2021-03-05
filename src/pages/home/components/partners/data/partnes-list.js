@@ -100,10 +100,11 @@ export const partnersList = [
   },
   {
     id: 6,
-    name: "Espaço Canto da Sereia",
+    name: "Binho, Centro automotivo",
     imgPath: "./assets/partners/binho-logo.jpg",
     description: [
       "Binho, Centro automotivo especializado na instalação e manutenção de GNV na cidade de Teresópolis.",
+      "Levamos e buscamos o seu veiculo para vistoria GNV sem custo. Pensou em GNV, Pensou em Binho GNV!",
     ],
     skillList: [
       "- Mecânica em Geral",
